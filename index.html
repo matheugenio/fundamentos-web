@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Esse é um texto com h1.</h1>
-  <h2> E esse é um texto com h2.</h2>
-
-  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sequi, possimus sed voluptate hic voluptates non necessitatibus sit ipsum quasi temporibus soluta nesciunt expedita repellendus saepe sapiente quos. Ipsam, quos?</p>
-  <ul>
-    <li>Esta é uma lista</li>
-    <li><a href="pagina2.html">Este é um link que te levará para outra pagina</a></li>
-  </ul>
+    <header class="header">
+        <h1>Blog Generation</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section class="content">
+            <h2>Artigos Recentes</h2>
+            <article class="post">
+                <h3>Título do Artigo 1</h3>
+                <p>Este é um resumo do artigo 1.</p>
+            </article>
+            <article class="post">
+                <h3>Título do Artigo 2</h3>
+                <p>Este é um resumo do artigo 2.</p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Generation Brasil</p>
+    </footer>
 </body>
 </html>
